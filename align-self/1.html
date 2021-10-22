@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .father {
+            border: 1px solid #ff0000;
+            width: 600px;
+            display: flex;
+            height: 500px;
+        }
+        
+        .son1 {
+            background-color: aqua;
+            width: 100px;
+            align-self: flex-start;
+        }
+        
+        .son2 {
+            background-color: bisque;
+            width: 200px;
+            align-self: flex-end;
+        }
+        
+        .son3 {
+            width: 300px;
+            background-color: blue;
+            align-self: baseline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="father">
+        <div class="son1">son1 flex-statr</div>
+        <div class="son2">son2 flex-end</div>
+        <div class="son3">son3 baseline</div>
+    </div>
+    自己控制自己在父元素的位置
+</body>
+
+</html>
